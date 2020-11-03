@@ -17,4 +17,4 @@ Dale con **Confianza !** es Demasiado Sencillo ! (Recuerda que si el articulo an
 
 Recuerda que necesitas **Firebase 🔥** para poder usar el proyecto en su maximo esplendor!
 
-![ScreenShot](https://d500.epimg.net/cincodias/imagenes/2018/11/13/lifestyle/1542113135_776401_1542116070_noticia_normal.jpg)
+![ScreenShot]()
