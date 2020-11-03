@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="380dp"
+        android:layout_height="642dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/cerrarSesion_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="cerrarSesion"
+            android:text="@string/btn_cerrar_sesion"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/iniciarSesionPantalla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="irIniciar"
+                android:text="@string/btn_iniciar_pantalla"
+                tools:text="@string/btn_iniciar_pantalla" />
+
+            <Button
+                android:id="@+id/registrarPantalla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="irRegistrarse"
+                android:text="@string/btn_registrar_pantalla"
+                tools:text="@string/btn_registrar_pantalla" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#8BC34A"
+                    app:cardCornerRadius="20dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/descripcion_noticias" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/noticias" />
+
+                            <Button
+                                android:id="@+id/noticias"
+                                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="irNoticias"
+                                android:text="@string/noticias_btn" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#FFEB3B"
+                    app:cardCornerRadius="20dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/descripcion_consejos" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView1"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/consejos" />
+
+                            <Button
+                                android:id="@+id/consejos"
+                                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="irConsejos"
+                                android:text="@string/consejos_btn" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#00BCD4"
+                    app:cardCornerRadius="20dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/descripcion_libros" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/libros" />
+
+                            <Button
+                                android:id="@+id/libros"
+                                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                                android:layout_width="156dp"
+                                android:layout_height="wrap_content"
+                                android:onClick="irLibros"
+                                android:text="@string/libros_btn" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#03A9F4"
+                    app:cardCornerRadius="20dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/descripcion_tipos" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/vaca" />
+
+                            <Button
+                                android:id="@+id/tiposGanado"
+                                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:onClick="irTipos"
+                                android:text="@string/tipos_btn" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#E4FF9800"
+                    app:cardCornerRadius="20dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/descripcion_razas" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:srcCompat="@drawable/toro" />
+
+                            <Button
+                                android:id="@+id/razas"
+                                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                                android:layout_width="144dp"
+                                android:layout_height="wrap_content"
+                                android:onClick="irRazas"
+                                android:text="@string/razas_btn" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#B8ACAC"
+                    app:cardCornerRadius="20dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/descripcion_opciones"
+                            android:textColor="#000000" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="45dp"
+                                android:layout_height="35dp"
+                                app:srcCompat="@drawable/flecha" />
+
+                            <Button
+                                android:id="@+id/principal"
+                                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                                android:layout_width="141dp"
+                                android:layout_height="43dp"
+                                android:onClick="irMenu"
+                                android:text="@string/btn_otras_opciones" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

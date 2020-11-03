@@ -1,0 +1,237 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.proyectodispositivos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:10:5-67
+16-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:11:5-65
+17-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:11:22-62
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:12:5-59
+19-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:12:19-57
+20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:13:5-69
+20-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:13:19-67
+21
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-storage:16.0.4] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\44687167bd08afac1ab37c1b18897f5d\jetified-firebase-storage-16.0.4\AndroidManifest.xml:23:5-79
+22-->[com.google.firebase:firebase-storage:16.0.4] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\44687167bd08afac1ab37c1b18897f5d\jetified-firebase-storage-16.0.4\AndroidManifest.xml:23:22-76
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\2cf10aa3a8e86f1e865bcbbed6d4b620\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\2cf10aa3a8e86f1e865bcbbed6d4b620\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\2cf10aa3a8e86f1e865bcbbed6d4b620\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+28        android:name="android.hardware.camera.front"
+28-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:28:9-53
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:29:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+31        android:name="android.hardware.camera.flash"
+31-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+34        android:name="android.hardware.screen.landscape"
+34-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+37        android:name="android.hardware.wifi"
+37-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+39
+40    <application
+40-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:15:5-59:19
+41        android:allowBackup="true"
+41-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:16:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.3.1] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\e170914865e0290fdcae8bc3afcaa989\core-1.3.1\AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:17:9-43
+45        android:label="@string/app_name"
+45-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:18:9-41
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:19:9-54
+47        android:supportsRtl="true"
+47-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:20:9-35
+48        android:testOnly="true"
+49        android:theme="@style/AppTheme" >
+49-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:21:9-40
+50        <activity android:name="com.example.proyectodispositivos.scannerActivity4" />
+50-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:22:9-63
+50-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:22:19-51
+51        <activity android:name="com.example.proyectodispositivos.scannerActivity3" />
+51-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:23:9-54
+51-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:23:19-51
+52        <activity android:name="com.example.proyectodispositivos.scannerActivity2" />
+52-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:24:9-54
+52-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:24:19-51
+53        <activity android:name="com.example.proyectodispositivos.scannerActivity" />
+53-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:25:9-53
+53-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:25:19-50
+54        <activity android:name="com.example.proyectodispositivos.creadoresActivity" />
+54-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:26:9-55
+54-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:26:19-52
+55        <!--
+56             The API key for Google Maps-based APIs is defined as a string resource.
+57             (See the file "res/values/google_maps_api.xml").
+58             Note that the API key is linked to the encryption key used to sign the APK.
+59             You need a different API key for each encryption key, including the release key that is used to
+60             sign the APK for publishing.
+61             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+62        -->
+63        <meta-data
+63-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:35:9-37:55
+64            android:name="com.google.android.geo.API_KEY"
+64-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:36:13-58
+65            android:value="@string/google_maps_key" />
+65-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:37:13-52
+66
+67        <activity
+67-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:39:9-41:59
+68            android:name="com.example.proyectodispositivos.MapsActivity"
+68-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:40:13-41
+69            android:label="@string/title_activity_maps" />
+69-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:41:13-56
+70        <activity android:name="com.example.proyectodispositivos.MenuActivity" />
+70-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:42:9-50
+70-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:42:19-47
+71        <activity android:name="com.example.proyectodispositivos.LibrosActivity2" />
+71-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:43:9-53
+71-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:43:19-50
+72        <activity android:name="com.example.proyectodispositivos.RegistrarseActivity" />
+72-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:44:9-57
+72-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:44:19-54
+73        <activity android:name="com.example.proyectodispositivos.IniciarSesionActivity" />
+73-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:45:9-59
+73-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:45:19-56
+74        <activity android:name="com.example.proyectodispositivos.MainActivity" >
+74-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:46:9-52:20
+74-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:46:19-47
+75            <intent-filter>
+75-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:47:13-51:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:48:17-69
+76-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:48:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:50:17-77
+78-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:50:27-74
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:53:9-58:20
+82            android:name="com.example.proyectodispositivos.CaptureAct"
+82-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:53:19-45
+83            android:screenOrientation="fullSensor"
+83-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:54:13-51
+84            android:stateNotNeeded="true"
+84-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:55:13-42
+85            android:windowSoftInputMode="stateAlwaysHidden" >
+85-->D:\Mis_Archivos\Universidad\10 x - semestre\Mobiles\proyecto\app\src\main\AndroidManifest.xml:56:13-60
+86        </activity>
+87        <activity
+87-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+88            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+88-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+92            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+92-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+94
+95        <service
+95-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+98            <meta-data
+98-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+99                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+99-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1753db3c0912284b8e4376655252ed45\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+101        </service> <!-- Needs to be explicitly declared on P+ -->
+102        <uses-library
+102-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\2cf10aa3a8e86f1e865bcbbed6d4b620\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+103            android:name="org.apache.http.legacy"
+103-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\2cf10aa3a8e86f1e865bcbbed6d4b620\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+104            android:required="false" />
+104-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\2cf10aa3a8e86f1e865bcbbed6d4b620\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+105
+106        <activity
+106-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+107            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+107-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+108            android:clearTaskOnLaunch="true"
+108-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+109            android:screenOrientation="sensorLandscape"
+109-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+110            android:stateNotNeeded="true"
+110-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+111            android:theme="@style/zxing_CaptureTheme"
+111-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+112            android:windowSoftInputMode="stateAlwaysHidden" />
+112-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\1b665fe0346842851f7707685b030b14\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+113        <activity
+113-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f79e7ad3cd5b668fcbf0cd8abd2784eb\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f79e7ad3cd5b668fcbf0cd8abd2784eb\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f79e7ad3cd5b668fcbf0cd8abd2784eb\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\f79e7ad3cd5b668fcbf0cd8abd2784eb\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+117
+118        <provider
+118-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\74ec364d2085c08a7ae649c8b45f551a\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+119            android:name="com.google.firebase.provider.FirebaseInitProvider"
+119-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\74ec364d2085c08a7ae649c8b45f551a\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+120            android:authorities="com.example.proyectodispositivos.firebaseinitprovider"
+120-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\74ec364d2085c08a7ae649c8b45f551a\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\74ec364d2085c08a7ae649c8b45f551a\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\74ec364d2085c08a7ae649c8b45f551a\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\3287de13b9589ca87b5ab75348811273\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\3287de13b9589ca87b5ab75348811273\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alejandro\.gradle\caches\transforms-2\files-2.1\3287de13b9589ca87b5ab75348811273\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+127    </application>
+128
+129</manifest>

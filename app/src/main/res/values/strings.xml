@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Info Ganaderia</string>
+
+
+    <string name="btn_iniciar_pantalla">Iniciar Sesion</string>
+    <string name="btn_registrar_pantalla">Registrarse</string>
+    <string name="btn_iniciar_sesion">Iniciar Sesion</string>
+    <string name="btn_registrarse_sesion">Registrarse</string>
+    <string name="btn_cerrar_sesion">Cerrar Sesion</string>
+    <string name="btn_otras_opciones">Otras opciones</string>
+
+    <string name="noticias_btn">Noticias</string>
+    <string name="tipos_btn">Tipos de ganaderia</string>
+    <string name="razas_btn">Razas de ganado</string>
+    <string name="consejos_btn">consejos</string>
+    <string name="libros_btn">libros y Articulos</string>
+
+    <string name="descripcion_noticias">. Las ultimas noticias sobre ganaderia</string>
+    <string name="descripcion_consejos">. Los mejores consejos para ganaderos</string>
+    <string name="descripcion_libros">. Descarga libros gratis sobre ganaderia y agricultura</string>
+    <string name="descripcion_razas">. Descubre las diferentes razas de Ganado Bovino</string>
+    <string name="descripcion_tipos">. Conoce los diferentes tipos de ganaderia</string>
+    <string name="descripcion_opciones">. Mira las diferentes Funcionalidades que tenemos para ti</string>
+
+    <string name="principal_btn">Menu Principal</string>
+    <string name="mapa_btn">Mapa</string>
+    <string name="scanner_btn">Scanner QR</string>
+    <string name="creadores_btn">Creadores</string>
+
+    <string name="descripcion_principal">. Aqui podras ver todo lo que necesites de Ganaderia!!</string>
+    <string name="descripcion_mapa">. Tenemos una integracion con Google Maps!</string>
+    <string name="descripcion_scanner">. Tambien Usamos Codigos QR !!</string>
+    <string name="descripcion_creadores">. Los Hermosos creadores de esta Aplicacion!!</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="descripcion_alejo">ALEJANDRO BECERRA BARCO</string>
+    <string name="correo_alejo">alejandro.becerra@correounivalle.edu.co</string>
+    <string name="correo_gian">gianlucca.aguado@correounivalle.edu.co</string>
+    <string name="descripcion_gian">GIANLUCCA AGUADO RENDON</string>
+    <string name="alejo_btn">Ir al perfil de Linkedln</string>
+
+</resources>
